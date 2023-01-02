@@ -53,7 +53,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/leaveApprovalBtn"
+                    android:id="@+id/leaverecordBtn"
                     android:layout_width="92dp"
                     android:layout_height="89dp"
                     android:backgroundTint="@color/white"
@@ -63,7 +63,7 @@
                     tools:layout_editor_absoluteY="545dp" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/etextView3"
                     android:layout_width="127dp"
                     android:layout_height="52dp"
                     android:layout_marginBottom="45dp"
@@ -71,7 +71,7 @@
                     android:textAlignment="center"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/leaveApprovalBtn"
+                    app:layout_constraintTop_toBottomOf="@+id/leaverecordBtn"
                     tools:layout_editor_absoluteX="142dp" />
             </LinearLayout>
         </FrameLayout>
@@ -86,7 +86,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/newEmployeeBtn"
+                    android:id="@+id/leaverequestBtn"
                     android:layout_width="92dp"
                     android:layout_height="89dp"
                     android:backgroundTint="@color/white"
@@ -96,7 +96,7 @@
                     tools:layout_editor_absoluteY="545dp" />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/etextView5"
                     android:layout_width="127dp"
                     android:layout_height="52dp"
                     android:text="New Employee"
